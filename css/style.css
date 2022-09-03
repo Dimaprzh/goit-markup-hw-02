@@ -1,0 +1,229 @@
+:root {
+    --primary-color: #212121;
+    --sencondary-color: #757575;
+    --active-color:  #2196F3;
+}
+
+body{
+    color: var(--primary-color);
+    font-family: "Roboto";
+}
+
+.list {
+    list-style: none;
+}
+
+.header-logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+}
+
+.logo-color{
+    color: #2196F3;
+}
+.header-logo:focus,
+.header-logo:hover{
+    color: var(--active-color);
+}
+
+.header-link {
+    color: var(--primary-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    line-height: 1.1;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}   
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--active-color);
+}
+
+.header-contact {
+    color: var(--sencondary-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+}
+
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--active-color);
+}
+
+
+.hero{
+    background-color: #2F303A;
+}
+
+.hero-title{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    line-height: 1.3;
+}
+
+.hero-btn{
+   color: #ffffff; 
+   background-color: var(--active-color);
+   font-size: 16px;
+   font-weight: 700;
+   letter-spacing: 0.06em;
+   text-align: center;
+}
+
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.about-title{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+.about-text{
+    color: var(--sencondary-color);
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+}
+
+.work-title{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.team-person{
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1.1;
+}
+.team-description{
+    color: var(--sencondary-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+}
+
+.footer{
+  background-color: #2F303A;
+  
+}
+.footer-logo{
+    font-weight: 700;
+    font-size: 26px;
+    font-family: "Raleway";
+    text-decoration: none;
+    font-style: normal; 
+}
+
+.footer-logo-color:hover,
+.footer-logo-color:focus {
+    color: var(--active-color);
+}
+
+.footer-logo-color {
+    color: #ffffff;
+}
+
+
+.footer-map {
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+    
+}
+.footer-map:hover,
+.footer-map:focus{
+    color: var(--active-color);
+}
+
+.footer-contact{
+    color: var(--sencondary-color);
+    text-decoration: none;
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.7
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--active-color);
+}
+
+.menu-btn {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em; 
+    color: var(--primary-color);
+    line-height: 1.6;
+}
+
+.menu-btn:hover,
+.menu-btn:focus{
+    background-color: var(--active-color);
+    color: #ffffff;
+}
+
+.project-titel{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    color: var(--primary-color);
+    letter-spacing: 0.06em;
+    line-height: 2;
+}
+.project-description{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: var(--sencondary-color);
+    line-height: 2.2;
+}
