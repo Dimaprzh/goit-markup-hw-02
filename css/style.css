@@ -38,8 +38,6 @@ body{
     font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
-    text-transform: uppercase;
-    
 }   
 
 .header-link:hover,
@@ -147,11 +145,9 @@ body{
     font-family: "Raleway";
     text-decoration: none;
     font-style: normal; 
-}
-
-.footer-logo-color {
     color: #ffffff;
 }
+
 
 .footer-logo:focus,
 .footer-logo:hover{
